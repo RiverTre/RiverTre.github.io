@@ -22,7 +22,7 @@
 
   <meta name="description" content="先验概率 后验概率 似然估计 实例解析在今天继续学习 \《神经网络与深度学习》Neural Networks and Deep Learninghttps:&#x2F;&#x2F;nndl.github.io&#x2F;邱锡鹏xpqiu@fudan.\ 的附录的数学基础部分的时候，发现了一篇非常好的文章，需要记录转载一下 &#x2F;&#x2F;source https:&#x2F;&#x2F;blog.csdn.net&#x2F;qq_23947237&#x2F;article&#x2F;de">
 <meta property="og:type" content="article">
-<meta property="og:title" content="研途周报20200106">
+<meta property="og:title" content="研途周报20210106">
 <meta property="og:url" content="http://example.com/2021/01/06/%E7%A0%94%E9%80%94%E5%91%A8%E6%8A%A520210106/index.html">
 <meta property="og:site_name" content="Yuehan&#39;s Hexo Blogs">
 <meta property="og:description" content="先验概率 后验概率 似然估计 实例解析在今天继续学习 \《神经网络与深度学习》Neural Networks and Deep Learninghttps:&#x2F;&#x2F;nndl.github.io&#x2F;邱锡鹏xpqiu@fudan.\ 的附录的数学基础部分的时候，发现了一篇非常好的文章，需要记录转载一下 &#x2F;&#x2F;source https:&#x2F;&#x2F;blog.csdn.net&#x2F;qq_23947237&#x2F;article&#x2F;de">
@@ -36,7 +36,7 @@
 <meta property="og:image" content="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarCollectionActive.png">
 <meta property="og:image" content="https://img-blog.csdn.net/20171021161006627?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjM5NDcyMzc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
 <meta property="article:published_time" content="2021-01-06T12:43:55.000Z">
-<meta property="article:modified_time" content="2021-01-06T12:49:46.834Z">
+<meta property="article:modified_time" content="2021-01-17T16:00:35.939Z">
 <meta property="article:author" content="John Zhang  https:&#x2F;&#x2F;github.com&#x2F;RiverTre">
 <meta property="article:tag" content="研途周报">
 <meta name="twitter:card" content="summary">
@@ -55,7 +55,7 @@
   };
 </script>
 
-  <title>研途周报20200106 | Yuehan's Hexo Blogs</title>
+  <title>研途周报20210106 | Yuehan's Hexo Blogs</title>
   
 
 
@@ -179,7 +179,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          研途周报20200106
+          研途周报20210106
         </h1>
 
         <div class="post-meta">
@@ -188,13 +188,19 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2021-01-06 20:43:55 / Modified: 20:49:46" itemprop="dateCreated datePublished" datetime="2021-01-06T20:43:55+08:00">2021-01-06</time>
+              <time title="Created: 2021-01-06 20:43:55" itemprop="dateCreated datePublished" datetime="2021-01-06T20:43:55+08:00">2021-01-06</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-01-18 00:00:35" itemprop="dateModified" datetime="2021-01-18T00:00:35+08:00">2021-01-18</time>
+              </span>
 
           
-            <span id="/2021/01/06/%E7%A0%94%E9%80%94%E5%91%A8%E6%8A%A520210106/" class="post-meta-item leancloud_visitors" data-flag-title="研途周报20200106" title="Views">
+            <span id="/2021/01/06/%E7%A0%94%E9%80%94%E5%91%A8%E6%8A%A520210106/" class="post-meta-item leancloud_visitors" data-flag-title="研途周报20210106" title="Views">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -332,215 +338,215 @@
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          交
+​          交
 
 
 ​         
-          通
+​          通
 
 
 ​         
-          方
+​          方
 
 
 ​         
-          式
+​          式
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          花
+​          花
 
 
 ​         
-          费
+​          费
 
 
 ​         
-          的
+​          的
 
 
 ​         
-          时
+​          时
 
 
 ​         
-          间
+​          间
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-          P( 交通方式 | 花费的时间 ) 
+​          P( 交通方式 | 花费的时间 ) 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">交</span><span class="mord cjk_fallback">通</span><span class="mord cjk_fallback">方</span><span class="mord cjk_fallback">式</span><span class="mord">∣</span><span class="mord cjk_fallback">花</span><span class="mord cjk_fallback">费</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">间</span><span class="mclose">)</span></span></span></span></span></span><br> 修改成一般的公式：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          P
-
-
-​         
-          (
-
-
-​         
-          因
-
-
-​         
-          ∣
-
-
-​         
-          果
-
-
-​         
-          )
-
-
-​        
-​        
-          P( 因 | 果 ) 
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">因</span><span class="mord">∣</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span></span></span></span></span></span><br> 公式正规化：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">交</span><span class="mord cjk_fallback">通</span><span class="mord cjk_fallback">方</span><span class="mord cjk_fallback">式</span><span class="mord">∣</span><span class="mord cjk_fallback">花</span><span class="mord cjk_fallback">费</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">间</span><span class="mclose">)</span></span></span></span></span></span><br> 修改成一般的公式：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          因
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          x
+​          果
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-          P( \theta | x ) 
+​          P( 因 | 果 ) 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span></span><br> （<font color="">公式中的 “<span class="katex--inline"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          ∣
-
-
-​        
-​        
-         |
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">∣</span></span></span></span></span>”读作 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">因</span><span class="mord">∣</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span></span></span></span></span></span><br> 公式正规化：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          g
+​          P
 
 
 ​         
-          i
+​          (
 
 
 ​         
-          v
+​          θ
 
 
 ​         
-          e
+​          ∣
 
 
 ​         
-          n
+​          x
+
+
+​         
+​          )
 
 
 ​        
 ​        
-         given
+​          P( \theta | x ) 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.85396em; vertical-align: -0.19444em;"></span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">i</span><span class="mord mathit" style="margin-right: 0.03588em;">v</span><span class="mord mathit">e</span><span class="mord mathit">n</span></span></span></span></span>，即给定的意思。如<span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span></span><br> （<font color="">公式中的 “<span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
-
-
-​         
-          (
-
-
-​         
-          A
-
-
-​         
-          ∣
-
-
-​         
-          B
-
-
-​         
-          )
+​          ∣
 
 
 ​        
 ​        
-         P(A|B)
+​         |
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">A</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.05017em;">B</span><span class="mclose">)</span></span></span></span></span> 即A given B 的概率</font>）</p> 
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">∣</span></span></span></span></span>”读作 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          g
+
+
+​         
+​          i
+
+
+​         
+​          v
+
+
+​         
+​          e
+
+
+​         
+​          n
+
+
+​        
+​        
+​         given
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.85396em; vertical-align: -0.19444em;"></span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">i</span><span class="mord mathit" style="margin-right: 0.03588em;">v</span><span class="mord mathit">e</span><span class="mord mathit">n</span></span></span></span></span>，即给定的意思。如<span class="katex--inline"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          P
+
+
+​         
+​          (
+
+
+​         
+​          A
+
+
+​         
+​          ∣
+
+
+​         
+​          B
+
+
+​         
+​          )
+
+
+​        
+​        
+​         P(A|B)
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">A</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.05017em;">B</span><span class="mclose">)</span></span></span></span></span> 即A given B 的概率</font>）</p> 
 </blockquote> 
 <blockquote> 
  <p><font color="f20022" size="4"><strong>[解释]</strong>：看到这里估计大家很奇怪为什么要用 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
@@ -548,91 +554,91 @@
 ​       
 ​        
 ​         
-          x
+​          x
 
 
 ​        
 ​        
-         x
+​         x
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 、 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          θ
-
-
-​        
-​        
-         \theta
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 这样的字母表示，而不是熟悉的 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 、 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          x
+​          θ
 
 
 ​        
 ​        
-         x
+​         \theta
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 、 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          y
-
-
-​        
-​        
-         y
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathit" style="margin-right: 0.03588em;">y</span></span></span></span></span> 。这样表示自然是有原因的。在这里大家只需要先暂时记住 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 这样的字母表示，而不是熟悉的 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          θ
+​          x
 
 
 ​        
 ​        
-         \theta
+​         x
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 代表<strong>因</strong>、 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 、 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          x
+​          y
 
 
 ​        
 ​        
-         x
+​         y
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 代表<strong>果</strong>，后面的贝叶斯我们将会具体介绍这些字母的含义。</font></p> 
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="mord mathit" style="margin-right: 0.03588em;">y</span></span></span></span></span> 。这样表示自然是有原因的。在这里大家只需要先暂时记住 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          θ
+
+
+​        
+​        
+​         \theta
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 代表<strong>因</strong>、 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          x
+
+
+​        
+​        
+​         x
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 代表<strong>果</strong>，后面的贝叶斯我们将会具体介绍这些字母的含义。</font></p> 
 </blockquote> 
 <hr> 
 <h3><a name="t3"></a><a name="t3"></a><a id="_59"></a>三个概念之先验概率（由历史求因）</h3> 
@@ -654,94 +660,94 @@
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          交
+​          交
 
 
 ​         
-          通
+​          通
 
 
 ​         
-          方
+​          方
 
 
 ​         
-          式
+​          式
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-          P(交通方式) 
+​          P(交通方式) 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">交</span><span class="mord cjk_fallback">通</span><span class="mord cjk_fallback">方</span><span class="mord cjk_fallback">式</span><span class="mclose">)</span></span></span></span></span></span><br> 一般化：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          P
-
-
-​         
-          (
-
-
-​         
-          因
-
-
-​         
-          )
-
-
-​        
-​        
-          P( 因 ) 
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">因</span><span class="mclose">)</span></span></span></span></span></span><br> 正规化：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">交</span><span class="mord cjk_fallback">通</span><span class="mord cjk_fallback">方</span><span class="mord cjk_fallback">式</span><span class="mclose">)</span></span></span></span></span></span><br> 一般化：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          因
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-          P(\theta) 
+​          P( 因 ) 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span></span></p> 
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">因</span><span class="mclose">)</span></span></span></span></span></span><br> 正规化：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          P
+
+
+​         
+​          (
+
+
+​         
+​          θ
+
+
+​         
+​          )
+
+
+​        
+​        
+​          P(\theta) 
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span></span></p> 
 </blockquote> 
 <hr> 
 <h3><a name="t4"></a><a name="t4"></a><a id="_80"></a>三个概念之似然估计（由因求果）</h3> 
@@ -763,122 +769,122 @@
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          时
+​          时
 
 
 ​         
-          间
+​          间
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          交
+​          交
 
 
 ​         
-          通
+​          通
 
 
 ​         
-          方
+​          方
 
 
 ​         
-          式
+​          式
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-          P(时间|交通方式) 
+​          P(时间|交通方式) 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">间</span><span class="mord">∣</span><span class="mord cjk_fallback">交</span><span class="mord cjk_fallback">通</span><span class="mord cjk_fallback">方</span><span class="mord cjk_fallback">式</span><span class="mclose">)</span></span></span></span></span></span><br> 一般化：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          P
-
-
-​         
-          (
-
-
-​         
-          果
-
-
-​         
-          ∣
-
-
-​         
-          因
-
-
-​         
-          )
-
-
-​        
-​        
-          P( 果|因 ) 
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">果</span><span class="mord">∣</span><span class="mord cjk_fallback">因</span><span class="mclose">)</span></span></span></span></span></span><br> 正规化：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">间</span><span class="mord">∣</span><span class="mord cjk_fallback">交</span><span class="mord cjk_fallback">通</span><span class="mord cjk_fallback">方</span><span class="mord cjk_fallback">式</span><span class="mclose">)</span></span></span></span></span></span><br> 一般化：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          x
+​          果
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          θ
+​          因
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-          P( x|\theta ) 
+​          P( 果|因 ) 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span></span></p> 
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">果</span><span class="mord">∣</span><span class="mord cjk_fallback">因</span><span class="mclose">)</span></span></span></span></span></span><br> 正规化：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          P
+
+
+​         
+​          (
+
+
+​         
+​          x
+
+
+​         
+​          ∣
+
+
+​         
+​          θ
+
+
+​         
+​          )
+
+
+​        
+​        
+​          P( x|\theta ) 
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span></span></p> 
 </blockquote> 
 <hr> 
 <h3><a name="t5"></a><a name="t5"></a><a id="_101"></a>贝叶斯公式</h3> 
@@ -888,444 +894,444 @@
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          A
+​          A
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          B
+​          B
 
 
 ​         
-          )
+​          )
 
 
 ​         
-          =
+​          =
 
 
 ​         
 ​          
 ​           
-            P
+​            P
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            B
+​            B
 
 
 ​           
-            ∣
+​            ∣
 
 
 ​           
-            A
+​            A
 
 
 ​           
-            )
+​            )
 
 
 ​           
-            ∗
+​            ∗
 
 
 ​           
-            P
+​            P
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            A
+​            A
 
 
 ​           
-            )
+​            )
 
 
 ​          
 ​          
 ​           
-            P
+​            P
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            B
+​            B
 
 
 ​           
-            )
+​            )
 
 
 ​          
 ​         
 ​        
 ​        
-          P( A|B )=\frac{P(B|A) *P(A)}{P(B)} 
+​          P( A|B )=\frac{P(B|A) *P(A)}{P(B)} 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">A</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.05017em;">B</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.363em; vertical-align: -0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.05017em;">B</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.05017em;">B</span><span class="mord">∣</span><span class="mord mathit">A</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">A</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> 但在这里我们采用如下形式：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          P
-
-
-​         
-          (
-
-
-​         
-          θ
-
-
-​         
-          ∣
-
-
-​         
-          x
-
-
-​         
-          )
-
-
-​         
-          =
-
-
-​         
-​          
-​           
-            P
-
-
-​           
-            (
-
-
-​           
-            x
-
-
-​           
-            ∣
-
-
-​           
-            θ
-
-
-​           
-            )
-
-
-​           
-            ∗
-
-
-​           
-            P
-
-
-​           
-            (
-
-
-​           
-            θ
-
-
-​           
-            )
-
-
-​          
-​          
-​           
-            P
-
-
-​           
-            (
-
-
-​           
-            x
-
-
-​           
-            )
-
-
-​          
-​         
-​        
-​        
-          P( \theta|x )=\frac{P(x|\theta) *P(\theta)}{P(x)} 
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.363em; vertical-align: -0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">A</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.05017em;">B</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.363em; vertical-align: -0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.05017em;">B</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.05017em;">B</span><span class="mord">∣</span><span class="mord mathit">A</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">A</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> 但在这里我们采用如下形式：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          后
+​          P
 
 
 ​         
-          验
+​          (
 
 
 ​         
-          概
+​          θ
 
 
 ​         
-          率
+​          ∣
 
 
 ​         
-          =
+​          x
+
+
+​         
+​          )
+
+
+​         
+​          =
 
 
 ​         
 ​          
 ​           
-            似
+​            P
 
 
 ​           
-            然
+​            (
 
 
 ​           
-            估
+​            x
 
 
 ​           
-            计
+​            ∣
 
 
 ​           
-            ∗
+​            θ
 
 
 ​           
-            先
+​            )
 
 
 ​           
-            验
+​            ∗
 
 
 ​           
-            概
+​            P
 
 
 ​           
-            率
+​            (
+
+
+​           
+​            θ
+
+
+​           
+​            )
 
 
 ​          
 ​          
 ​           
-            e
+​            P
 
 
 ​           
-            v
+​            (
 
 
 ​           
-            i
+​            x
 
 
 ​           
-            d
-
-
-​           
-            e
-
-
-​           
-            n
-
-
-​           
-            c
-
-
-​           
-            e
+​            )
 
 
 ​          
 ​         
 ​        
 ​        
-         后验概率 =\frac{似然估计 *先验概率}{evidence}
+​          P( \theta|x )=\frac{P(x|\theta) *P(\theta)}{P(x)} 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.36687em; vertical-align: 0em;"></span><span class="mord cjk_fallback">后</span><span class="mord cjk_fallback">验</span><span class="mord cjk_fallback">概</span><span class="mord cjk_fallback">率</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1.82828em; vertical-align: -0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.14228em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.03588em;">v</span><span class="mord mathit">i</span><span class="mord mathit">d</span><span class="mord mathit">e</span><span class="mord mathit">n</span><span class="mord mathit">c</span><span class="mord mathit">e</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord cjk_fallback">似</span><span class="mord cjk_fallback">然</span><span class="mord cjk_fallback">估</span><span class="mord cjk_fallback">计</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord cjk_fallback">先</span><span class="mord cjk_fallback">验</span><span class="mord cjk_fallback">概</span><span class="mord cjk_fallback">率</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.686em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <strong>[注]</strong>：<span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.363em; vertical-align: -0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          后
+
+
+​         
+​          验
+
+
+​         
+​          概
+
+
+​         
+​          率
+
+
+​         
+​          =
+
+
+​         
+​          
+​           
+​            似
+
+
+​           
+​            然
+
+
+​           
+​            估
+
+
+​           
+​            计
+
+
+​           
+​            ∗
+
+
+​           
+​            先
+
+
+​           
+​            验
+
+
+​           
+​            概
+
+
+​           
+​            率
+
+
+​          
+​          
+​           
+​            e
+
+
+​           
+​            v
+
+
+​           
+​            i
+
+
+​           
+​            d
+
+
+​           
+​            e
+
+
+​           
+​            n
+
+
+​           
+​            c
+
+
+​           
+​            e
+
+
+​          
+​         
+​        
+​        
+​         后验概率 =\frac{似然估计 *先验概率}{evidence}
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.36687em; vertical-align: 0em;"></span><span class="mord cjk_fallback">后</span><span class="mord cjk_fallback">验</span><span class="mord cjk_fallback">概</span><span class="mord cjk_fallback">率</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1.82828em; vertical-align: -0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.14228em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.03588em;">v</span><span class="mord mathit">i</span><span class="mord mathit">d</span><span class="mord mathit">e</span><span class="mord mathit">n</span><span class="mord mathit">c</span><span class="mord mathit">e</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord cjk_fallback">似</span><span class="mord cjk_fallback">然</span><span class="mord cjk_fallback">估</span><span class="mord cjk_fallback">计</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord cjk_fallback">先</span><span class="mord cjk_fallback">验</span><span class="mord cjk_fallback">概</span><span class="mord cjk_fallback">率</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.686em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <strong>[注]</strong>：<span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​      
 ​       
 ​        
-         P
+​         P
 
 
 ​        
-         (
+​         (
 
 
 ​        
-         x
+​         x
 
 
 ​        
-         )
+​         )
 
 
 ​       
 ​       
-        P(x)
+​        P(x)
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span> 即 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span> 即 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​      
 ​       
 ​        
-         e
+​         e
 
 
 ​        
-         v
+​         v
 
 
 ​        
-         i
+​         i
 
 
 ​        
-         d
+​         d
 
 
 ​        
-         e
+​         e
 
 
 ​        
-         n
+​         n
 
 
 ​        
-         c
+​         c
 
 
 ​        
-         e
+​         e
 
 
 ​       
 ​       
-        evidence
+​        evidence
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.03588em;">v</span><span class="mord mathit">i</span><span class="mord mathit">d</span><span class="mord mathit">e</span><span class="mord mathit">n</span><span class="mord mathit">c</span><span class="mord mathit">e</span></span></span></span></span>。隔壁小哥去公园很多次，忽略交通方式是什么，<strong>只统计每次到达公园的时间 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.03588em;">v</span><span class="mord mathit">i</span><span class="mord mathit">d</span><span class="mord mathit">e</span><span class="mord mathit">n</span><span class="mord mathit">c</span><span class="mord mathit">e</span></span></span></span></span>。隔壁小哥去公园很多次，忽略交通方式是什么，<strong>只统计每次到达公园的时间 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          x
+​          x
 
 
 ​        
 ​        
-         x
+​         x
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span></strong>，于是得到了一<strong>组时间的概率分布</strong>。这种不考虑原因，只看结果的概率分布即 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span></strong>，于是得到了一<strong>组时间的概率分布</strong>。这种不考虑原因，只看结果的概率分布即 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​      
 ​       
 ​        
-         e
+​         e
 
 
 ​        
-         v
+​         v
 
 
 ​        
-         i
+​         i
 
 
 ​        
-         d
+​         d
 
 
 ​        
-         e
+​         e
 
 
 ​        
-         n
+​         n
 
 
 ​        
-         c
+​         c
 
 
 ​        
-         e
+​         e
 
 
 ​       
 ​       
-        evidence
+​        evidence
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.03588em;">v</span><span class="mord mathit">i</span><span class="mord mathit">d</span><span class="mord mathit">e</span><span class="mord mathit">n</span><span class="mord mathit">c</span><span class="mord mathit">e</span></span></span></span></span>，它也称为样本发生的概率分布的<strong>证据</strong>。</p> 
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.03588em;">v</span><span class="mord mathit">i</span><span class="mord mathit">d</span><span class="mord mathit">e</span><span class="mord mathit">n</span><span class="mord mathit">c</span><span class="mord mathit">e</span></span></span></span></span>，它也称为样本发生的概率分布的<strong>证据</strong>。</p> 
 </blockquote> 
 <blockquote> 
  <p><span class="katex--inline"><span class="katex"><span class="katex-mathml">
@@ -1333,102 +1339,102 @@
 ​      
 ​       
 ​        
-         e
+​         e
 
 
 ​        
-         v
+​         v
 
 
 ​        
-         i
+​         i
 
 
 ​        
-         d
+​         d
 
 
 ​        
-         e
+​         e
 
 
 ​        
-         n
+​         n
 
 
 ​        
-         c
+​         c
 
 
 ​        
-         e
+​         e
 
 
 ​       
 ​       
-        evidence
+​        evidence
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.03588em;">v</span><span class="mord mathit">i</span><span class="mord mathit">d</span><span class="mord mathit">e</span><span class="mord mathit">n</span><span class="mord mathit">c</span><span class="mord mathit">e</span></span></span></span></span> 在故事中如下表示：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.03588em;">v</span><span class="mord mathit">i</span><span class="mord mathit">d</span><span class="mord mathit">e</span><span class="mord mathit">n</span><span class="mord mathit">c</span><span class="mord mathit">e</span></span></span></span></span> 在故事中如下表示：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          时
+​          时
 
 
 ​         
-          间
+​          间
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-         P(时间)
+​         P(时间)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">间</span><span class="mclose">)</span></span></span></span></span></span> <strong>或</strong><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">间</span><span class="mclose">)</span></span></span></span></span></span> <strong>或</strong><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          果
+​          果
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-         P(果)
+​         P(果)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span></span></span></span></span></span></p> 
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span></span></span></span></span></span></p> 
 </blockquote> 
 <p>知乎回答原文参考 <a target="_blank" rel="noopener" href="https://www.zhihu.com/question/24261751/answer/158547500">这儿</a>.</p> 
 <hr> 
@@ -1443,460 +1449,460 @@
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          x
+​          x
 
 
 ​         
-          )
+​          )
 
 
 ​         
-          =
+​          =
 
 
 ​         
 ​          
 ​           
-            P
+​            P
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            x
+​            x
 
 
 ​           
-            ∣
+​            ∣
 
 
 ​           
-            θ
+​            θ
 
 
 ​           
-            )
+​            )
 
 
 ​           
-            ∗
+​            ∗
 
 
 ​           
-            P
+​            P
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            θ
+​            θ
 
 
 ​           
-            )
+​            )
 
 
 ​          
 ​          
 ​           
-            P
+​            P
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            x
+​            x
 
 
 ​           
-            )
+​            )
 
 
 ​          
 ​         
 ​        
 ​        
-          P( \theta|x )=\frac{P(x|\theta) *P(\theta)}{P(x)} 
+​          P( \theta|x )=\frac{P(x|\theta) *P(\theta)}{P(x)} 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.363em; vertical-align: -0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <font color="f20022" size="3"><strong>[解释]</strong>：其中 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          x
-
-
-​        
-​        
-         x
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 是观测得到的<strong>结果数据</strong>。<span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.363em; vertical-align: -0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <font color="f20022" size="3"><strong>[解释]</strong>：其中 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
-
-
-​         
-          (
-
-
-​         
-          x
-
-
-​         
-          )
+​          x
 
 
 ​        
 ​        
-         P(x)
+​         x
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span>是观测结果数据的概率分布。如下表：</font></p> 
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 是观测得到的<strong>结果数据</strong>。<span class="katex--inline"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          P
+
+
+​         
+​          (
+
+
+​         
+​          x
+
+
+​         
+​          )
+
+
+​        
+​        
+​         P(x)
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span>是观测结果数据的概率分布。如下表：</font></p> 
 </blockquote> 
 <div class="table-box"><table><thead><tr><th><span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 ​        
 ​         
 ​          
-           x
+​           x
 
 
 ​         
 ​         
-          x
+​          x
 
 
 ​        
-       </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span></th><th>水果糖</th><th>巧克力糖</th></tr></thead><tbody><tr><td><span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​       </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span></th><th>水果糖</th><th>巧克力糖</th></tr></thead><tbody><tr><td><span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​        
 ​         
 ​          
-           P
+​           P
 
 
 ​          
-           (
+​           (
 
 
 ​          
-           x
+​           x
 
 
 ​          
-           )
+​           )
 
 
 ​         
 ​         
-          P(x)
+​          P(x)
 
 
 ​        
-       </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span></td><td>5/8</td><td>3/8</td></tr></tbody></table></div>
+​       </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span></td><td>5/8</td><td>3/8</td></tr></tbody></table></div>
 <blockquote> 
  <p><font color="f20022" size="3"><strong>[解释]</strong>：其中 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 ​       
 ​        
 ​         
-          θ
+​          θ
 
 
 ​        
 ​        
-         \theta
+​         \theta
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 是<strong>决定观测结果数据分布的参数</strong>。<span class="katex--inline"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          P
-
-
-​         
-          (
-
-
-​         
-          θ
-
-
-​         
-          )
-
-
-​        
-​        
-         P(\theta)
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span> 是先验概率，<strong>没有观测数据</strong>的支持下 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 是<strong>决定观测结果数据分布的参数</strong>。<span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          θ
+​          P
+
+
+​         
+​          (
+
+
+​         
+​          θ
+
+
+​         
+​          )
 
 
 ​        
 ​        
-         \theta
+​         P(\theta)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 发生的概率。如下表：</font></p> 
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span> 是先验概率，<strong>没有观测数据</strong>的支持下 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          θ
+
+
+​        
+​        
+​         \theta
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 发生的概率。如下表：</font></p> 
 </blockquote> 
 <div class="table-box"><table><thead><tr><th><span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 ​        
 ​         
 ​          
-           θ
+​           θ
 
 
 ​         
 ​         
-          \theta
+​          \theta
 
 
 ​        
-       </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span></th><th>一号箱</th><th>二号箱</th></tr></thead><tbody><tr><td><span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​       </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span></th><th>一号箱</th><th>二号箱</th></tr></thead><tbody><tr><td><span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​        
 ​         
 ​          
-           P
+​           P
 
 
 ​          
-           (
+​           (
 
 
 ​          
-           θ
+​           θ
 
 
 ​          
-           )
+​           )
 
 
 ​         
 ​         
-          P(\theta)
+​          P(\theta)
 
 
 ​        
-       </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span></td><td>1/2</td><td>1/2</td></tr></tbody></table></div>
+​       </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span></td><td>1/2</td><td>1/2</td></tr></tbody></table></div>
 <blockquote> 
  <p><font color="f20022" size="3"><strong>[解释]</strong>：<span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          x
+​          x
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-         P(\theta|x)
+​         P(\theta|x)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span> 是后验概率，<strong>有观测数据</strong>的支持下 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          θ
-
-
-​        
-​        
-         \theta
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 发生的概率。在上面的故事中<strong>第二问</strong>是小哥随机选择一个箱子，从中摸出一颗糖发现是水果糖。这颗水果糖来自一号箱子的概率就是后验概率：</font><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span> 是后验概率，<strong>有观测数据</strong>的支持下 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
-
-
-​         
-          (
-
-
-​         
-          θ
-
-
-​         
-          =
-
-
-​         
-          一
-
-
-​         
-          号
-
-
-​         
-          箱
-
-
-​         
-          ∣
-
-
-​         
-          x
-
-
-​         
-          =
-
-
-​         
-          水
-
-
-​         
-          果
-
-
-​         
-          糖
-
-
-​         
-          )
+​          θ
 
 
 ​        
 ​        
-         P(\theta =一号箱 | x = 水果糖)
+​         \theta
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mclose">)</span></span></span></span></span></span><br> <font color="f20022" size="3"><strong>[解释]</strong>：<span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 发生的概率。在上面的故事中<strong>第二问</strong>是小哥随机选择一个箱子，从中摸出一颗糖发现是水果糖。这颗水果糖来自一号箱子的概率就是后验概率：</font><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          x
+​          θ
 
 
 ​         
-          ∣
+​          =
 
 
 ​         
-          θ
+​          一
 
 
 ​         
-          )
+​          号
+
+
+​         
+​          箱
+
+
+​         
+​          ∣
+
+
+​         
+​          x
+
+
+​         
+​          =
+
+
+​         
+​          水
+
+
+​         
+​          果
+
+
+​         
+​          糖
+
+
+​         
+​          )
 
 
 ​        
 ​        
-         P(x|\theta)
+​         P(\theta =一号箱 | x = 水果糖)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span> 是似然函数，给定某参数 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mclose">)</span></span></span></span></span></span><br> <font color="f20022" size="3"><strong>[解释]</strong>：<span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          θ
+​          P
+
+
+​         
+​          (
+
+
+​         
+​          x
+
+
+​         
+​          ∣
+
+
+​         
+​          θ
+
+
+​         
+​          )
 
 
 ​        
 ​        
-         \theta
+​         P(x|\theta)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 时<strong>结果数据的概率分布</strong>。</font></p> 
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span> 是似然函数，给定某参数 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          θ
+
+
+​        
+​        
+​         \theta
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 时<strong>结果数据的概率分布</strong>。</font></p> 
 </blockquote> 
 <blockquote> 
  <p><font size="3">其中，<span class="katex--inline"><span class="katex"><span class="katex-mathml">
@@ -1904,291 +1910,291 @@
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          一
+​          一
 
 
 ​         
-          号
+​          号
 
 
 ​         
-          箱
+​          箱
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-         P(\theta =一号箱)
+​         P(\theta =一号箱)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span></span></span></span></span> 就是先验概率，根据贝叶斯公式，需求证据 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          P
-
-
-​         
-          (
-
-
-​         
-          x
-
-
-​         
-          =
-
-
-​         
-          水
-
-
-​         
-          果
-
-
-​         
-          糖
-
-
-​         
-          )
-
-
-​        
-​        
-         P(x=水果糖)
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mclose">)</span></span></span></span></span> 和似然函数 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span></span></span></span></span> 就是先验概率，根据贝叶斯公式，需求证据 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          x
+​          x
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          水
+​          水
 
 
 ​         
-          果
+​          果
 
 
 ​         
-          糖
+​          糖
 
 
 ​         
-          ∣
-
-
-​         
-          θ
-
-
-​         
-          =
-
-
-​         
-          一
-
-
-​         
-          号
-
-
-​         
-          箱
-
-
-​         
-          )
+​          )
 
 
 ​        
 ​        
-         P( x = 水果糖 | \theta =一号箱)
+​         P(x=水果糖)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span></span></span></span></span> 。</font><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mclose">)</span></span></span></span></span> 和似然函数 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          x
+​          x
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          水
+​          水
 
 
 ​         
-          果
+​          果
 
 
 ​         
-          糖
+​          糖
 
 
 ​         
-          )
+​          ∣
 
 
 ​         
-          =
+​          θ
+
+
+​         
+​          =
+
+
+​         
+​          一
+
+
+​         
+​          号
+
+
+​         
+​          箱
+
+
+​         
+​          )
+
+
+​        
+​        
+​         P( x = 水果糖 | \theta =一号箱)
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span></span></span></span></span> 。</font><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          P
+
+
+​         
+​          (
+
+
+​         
+​          x
+
+
+​         
+​          =
+
+
+​         
+​          水
+
+
+​         
+​          果
+
+
+​         
+​          糖
+
+
+​         
+​          )
+
+
+​         
+​          =
 
 
 ​         
 ​          
-           ∑
+​           ∑
 
 
 ​          
-           i
+​           i
 
 
 ​         
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          x
+​          x
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          水
+​          水
 
 
 ​         
-          果
+​          果
 
 
 ​         
-          糖
+​          糖
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          i
+​          i
 
 
 ​         
-          号
+​          号
 
 
 ​         
-          箱
+​          箱
 
 
 ​         
-          )
+​          )
 
 
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          i
+​          i
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-         P(x=水果糖) = \sum_{i}P( x = 水果糖 | \theta =i 号箱)P(\theta = i)
+​         P(x=水果糖) = \sum_{i}P( x = 水果糖 | \theta =i 号箱)P(\theta = i)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.32767em; vertical-align: -1.27767em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.05001em;"><span class="" style="top: -1.87233em; margin-left: 0em;"><span class="pstrut" style="height: 3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">i</span></span></span></span><span class="" style="top: -3.05001em;"><span class="pstrut" style="height: 3.05em;"></span><span class=""><span class="mop op-symbol large-op">∑</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 1.27767em;"><span class=""></span></span></span></span></span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit">i</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit">i</span><span class="mclose">)</span></span></span></span></span></span></p> 
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.32767em; vertical-align: -1.27767em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.05001em;"><span class="" style="top: -1.87233em; margin-left: 0em;"><span class="pstrut" style="height: 3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">i</span></span></span></span><span class="" style="top: -3.05001em;"><span class="pstrut" style="height: 3.05em;"></span><span class=""><span class="mop op-symbol large-op">∑</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 1.27767em;"><span class=""></span></span></span></span></span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit">i</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit">i</span><span class="mclose">)</span></span></span></span></span></span></p> 
 </blockquote> 
 <blockquote> 
  <p><font color="5510f5" size="4">我们再考虑上面的计算：</font><br> (1) 现在小哥将<strong>随机</strong>选择一个箱子，<strong>从中摸出一颗糖</strong>。请问小哥选择一号箱子的概率。根据<strong>明显的先验知识</strong>我们就可以知道<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
@@ -2196,936 +2202,936 @@
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          一
+​          一
 
 
 ​         
-          号
+​          号
 
 
 ​         
-          箱
+​          箱
 
 
 ​         
-          )
+​          )
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          1
+​          1
 
 
 ​         
-          /
+​          /
 
 
 ​         
-          2
+​          2
 
 
 ​        
 ​        
-         P(\theta =一号箱) =1/2
+​         P(\theta =一号箱) =1/2
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span></span></span></span></span></span><br> (2) 现在小哥将<strong>随机</strong>选择一个箱子，<strong>从中摸出一颗糖发现是水果糖</strong>。请问这颗水果糖来自一号箱子的概率。后验概率为<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          P
-
-
-​         
-          (
-
-
-​         
-          θ
-
-
-​         
-          =
-
-
-​         
-          1
-
-
-​         
-          ∣
-
-
-​         
-          x
-
-
-​         
-          =
-
-
-​         
-          水
-
-
-​         
-          果
-
-
-​         
-          )
-
-
-​         
-          =
-
-
-​         
-​          
-​           
-            P
-
-
-​           
-            (
-
-
-​           
-            x
-
-
-​           
-            =
-
-
-​           
-            水
-
-
-​           
-            果
-
-
-​           
-            ∣
-
-
-​           
-            θ
-
-
-​           
-            =
-
-
-​           
-            1
-
-
-​           
-            )
-
-
-​           
-            ∗
-
-
-​           
-            P
-
-
-​           
-            (
-
-
-​           
-            θ
-
-
-​           
-            =
-
-
-​           
-            1
-
-
-​           
-            )
-
-
-​          
-​          
-​           
-            P
-
-
-​           
-            (
-
-
-​           
-            x
-
-
-​           
-            =
-
-
-​           
-            水
-
-
-​           
-            果
-
-
-​           
-            )
-
-
-​          
-​         
-​        
-​        
-          P( \theta =1|x=水果 )=\frac{P(x=水果|\theta =1) *P(\theta =1)}{P(x=水果)} 
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.363em; vertical-align: -0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord">1</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span></span></span></span></span></span><br> (2) 现在小哥将<strong>随机</strong>选择一个箱子，<strong>从中摸出一颗糖发现是水果糖</strong>。请问这颗水果糖来自一号箱子的概率。后验概率为<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          1
+​          1
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          x
+​          x
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          水
+​          水
 
 
 ​         
-          果
+​          果
 
 
 ​         
-          )
+​          )
 
 
 ​         
-          =
+​          =
 
 
 ​         
 ​          
 ​           
-            P
+​            P
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            x
+​            x
 
 
 ​           
-            =
+​            =
 
 
 ​           
-            水
+​            水
 
 
 ​           
-            果
+​            果
 
 
 ​           
-            ∣
+​            ∣
 
 
 ​           
-            θ
+​            θ
 
 
 ​           
-            =
+​            =
 
 
 ​           
-            1
+​            1
 
 
 ​           
-            )
+​            )
 
 
 ​           
-            ∗
+​            ∗
 
 
 ​           
-            P
+​            P
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            θ
+​            θ
 
 
 ​           
-            =
+​            =
 
 
 ​           
-            1
+​            1
 
 
 ​           
-            )
+​            )
+
+
+​          
+​          
+​           
+​            P
+
+
+​           
+​            (
+
+
+​           
+​            x
+
+
+​           
+​            =
+
+
+​           
+​            水
+
+
+​           
+​            果
+
+
+​           
+​            )
+
+
+​          
+​         
+​        
+​        
+​          P( \theta =1|x=水果 )=\frac{P(x=水果|\theta =1) *P(\theta =1)}{P(x=水果)} 
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.363em; vertical-align: -0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord">1</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          P
+
+
+​         
+​          (
+
+
+​         
+​          θ
+
+
+​         
+​          =
+
+
+​         
+​          1
+
+
+​         
+​          ∣
+
+
+​         
+​          x
+
+
+​         
+​          =
+
+
+​         
+​          水
+
+
+​         
+​          果
+
+
+​         
+​          )
+
+
+​         
+​          =
+
+
+​         
+​          
+​           
+​            P
+
+
+​           
+​            (
+
+
+​           
+​            x
+
+
+​           
+​            =
+
+
+​           
+​            水
+
+
+​           
+​            果
+
+
+​           
+​            ∣
+
+
+​           
+​            θ
+
+
+​           
+​            =
+
+
+​           
+​            1
+
+
+​           
+​            )
+
+
+​           
+​            ∗
+
+
+​           
+​            P
+
+
+​           
+​            (
+
+
+​           
+​            θ
+
+
+​           
+​            =
+
+
+​           
+​            1
+
+
+​           
+​            )
 
 
 ​          
 ​          
 ​           
 ​            
-             ∑
+​             ∑
 
 
 ​            
-             i
+​             i
 
 
 ​           
 ​           
-            P
+​            P
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            x
+​            x
 
 
 ​           
-            =
+​            =
 
 
 ​           
-            水
+​            水
 
 
 ​           
-            果
+​            果
 
 
 ​           
-            糖
+​            糖
 
 
 ​           
-            ∣
+​            ∣
 
 
 ​           
-            θ
+​            θ
 
 
 ​           
-            =
+​            =
 
 
 ​           
-            i
+​            i
 
 
 ​           
-            号
+​            号
 
 
 ​           
-            箱
+​            箱
 
 
 ​           
-            )
+​            )
 
 
 ​           
-            P
+​            P
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            θ
+​            θ
 
 
 ​           
-            =
+​            =
 
 
 ​           
-            i
+​            i
 
 
 ​           
-            )
+​            )
 
 
 ​          
 ​         
 ​        
 ​        
-          P( \theta =1|x=水果 )=\frac{P(x=水果|\theta =1) *P(\theta =1)}{ \sum_{i}P( x = 水果糖 | \theta =i 号箱)P(\theta = i)} 
+​          P( \theta =1|x=水果 )=\frac{P(x=水果|\theta =1) *P(\theta =1)}{ \sum_{i}P( x = 水果糖 | \theta =i 号箱)P(\theta = i)} 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.41271em; vertical-align: -0.98571em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mop"><span class="mop op-symbol small-op" style="position: relative; top: -5e-06em;">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.161954em;"><span class="" style="top: -2.40029em; margin-left: 0em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">i</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.29971em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord mathit">i</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord mathit">i</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord">1</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.98571em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.41271em; vertical-align: -0.98571em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mop"><span class="mop op-symbol small-op" style="position: relative; top: -5e-06em;">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.161954em;"><span class="" style="top: -2.40029em; margin-left: 0em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">i</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.29971em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord mathit">i</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord mathit">i</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord">1</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.98571em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          1
+​          1
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          x
+​          x
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          水
+​          水
 
 
 ​         
-          果
+​          果
 
 
 ​         
-          )
+​          )
 
 
 ​         
-          =
+​          =
 
 
 ​         
 ​          
 ​           
-            (
+​            (
 
 
 ​           
-            3
+​            3
 
 
 ​           
-            /
+​            /
 
 
 ​           
-            4
+​            4
 
 
 ​           
-            )
+​            )
 
 
 ​           
-            ∗
+​            ∗
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            1
+​            1
 
 
 ​           
-            /
+​            /
 
 
 ​           
-            2
+​            2
 
 
 ​           
-            )
+​            )
 
 
 ​          
 ​          
 ​           
-            (
+​            (
 
 
 ​           
-            3
+​            3
 
 
 ​           
-            /
+​            /
 
 
 ​           
-            4
+​            4
 
 
 ​           
-            )
+​            )
 
 
 ​           
-            ∗
+​            ∗
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            1
+​            1
 
 
 ​           
-            /
+​            /
 
 
 ​           
-            2
+​            2
 
 
 ​           
-            )
+​            )
 
 
 ​           
-            +
+​            +
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            2
+​            2
 
 
 ​           
-            /
+​            /
 
 
 ​           
-            4
+​            4
 
 
 ​           
-            )
+​            )
 
 
 ​           
-            ∗
+​            ∗
 
 
 ​           
-            (
+​            (
 
 
 ​           
-            1
+​            1
 
 
 ​           
-            /
+​            /
 
 
 ​           
-            2
+​            2
 
 
 ​           
-            )
+​            )
 
 
 ​          
 ​         
 ​        
 ​        
-          P( \theta =1|x=水果 )=\frac{(3/4) *(1/2)}{ (3/4) *(1/2)+(2/4) *(1/2)} 
+​          P( \theta =1|x=水果 )=\frac{(3/4) *(1/2)}{ (3/4) *(1/2)+(2/4) *(1/2)} 
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.363em; vertical-align: -0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mopen">(</span><span class="mord">3</span><span class="mord">/</span><span class="mord">4</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mopen">(</span><span class="mord">2</span><span class="mord">/</span><span class="mord">4</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mopen">(</span><span class="mord">3</span><span class="mord">/</span><span class="mord">4</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          P
-
-
-​         
-          (
-
-
-​         
-          θ
-
-
-​         
-          =
-
-
-​         
-          1
-
-
-​         
-          ∣
-
-
-​         
-          x
-
-
-​         
-          =
-
-
-​         
-          水
-
-
-​         
-          果
-
-
-​         
-          )
-
-
-​         
-          =
-
-
-​         
-          3
-
-
-​         
-          /
-
-
-​         
-          5
-
-
-​        
-​        
-          P( \theta =1|x=水果 )=3/5
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">3</span><span class="mord">/</span><span class="mord">5</span></span></span></span></span></span><br> <font color="5510f5" size="4">我们为什么要在这里连续计算两道题呢，并不是为了单纯的计算，而是去比较计算结果得到<strong>贝叶斯推断的意义</strong>。</font><br> <font color="f51005" size="4">大家可以看到：没有做实验之前我们推断 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.363em; vertical-align: -0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mopen">(</span><span class="mord">3</span><span class="mord">/</span><span class="mord">4</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mopen">(</span><span class="mord">2</span><span class="mord">/</span><span class="mord">4</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mopen">(</span><span class="mord">3</span><span class="mord">/</span><span class="mord">4</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          =
+​          =
 
 
 ​         
-          一
+​          1
 
 
 ​         
-          号
+​          ∣
 
 
 ​         
-          箱
+​          x
 
 
 ​         
-          )
+​          =
 
 
 ​         
-          =
+​          水
 
 
 ​         
-          1
+​          果
 
 
 ​         
-          /
+​          )
 
 
 ​         
-          2
+​          =
+
+
+​         
+​          3
+
+
+​         
+​          /
+
+
+​         
+​          5
 
 
 ​        
 ​        
-         P(\theta =一号箱) =1/2
+​          P( \theta =1|x=水果 )=3/5
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span></span></span></span></span> 这个先验概率；而有了参考结果数据“从中摸出一颗糖发现是水果糖“，我们便可以得到 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
-
-
-​       
-​        
-​         
-          P
-
-
-​         
-          (
-
-
-​         
-          θ
-
-
-​         
-          =
-
-
-​         
-          一
-
-
-​         
-          号
-
-
-​         
-          箱
-
-
-​         
-          ∣
-
-
-​         
-          x
-
-
-​         
-          =
-
-
-​         
-          水
-
-
-​         
-          果
-
-
-​         
-          糖
-
-
-​         
-          )
-
-
-​         
-          =
-
-
-​         
-          3
-
-
-​         
-          /
-
-
-​         
-          5
-
-
-​        
-​        
-         P( \theta =一号箱|x=水果糖 )=3/5
-
-
-​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">3</span><span class="mord">/</span><span class="mord">5</span></span></span></span></span> 这个后验概率。也就是说推断<strong>是一号箱</strong>的概率，在取出水果糖前和后，【<span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">3</span><span class="mord">/</span><span class="mord">5</span></span></span></span></span></span><br> <font color="5510f5" size="4">我们为什么要在这里连续计算两道题呢，并不是为了单纯的计算，而是去比较计算结果得到<strong>贝叶斯推断的意义</strong>。</font><br> <font color="f51005" size="4">大家可以看到：没有做实验之前我们推断 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          θ
+​          P
 
 
 ​         
-          =
+​          (
 
 
 ​         
-          一
+​          θ
 
 
 ​         
-          号
+​          =
 
 
 ​         
-          箱
+​          一
+
+
+​         
+​          号
+
+
+​         
+​          箱
+
+
+​         
+​          )
+
+
+​         
+​          =
+
+
+​         
+​          1
+
+
+​         
+​          /
+
+
+​         
+​          2
 
 
 ​        
 ​        
-         \theta =一号箱
+​         P(\theta =一号箱) =1/2
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0em; vertical-align: 0em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span></span></span></span></span> 】事件的<strong>可能性得到了增强</strong>（<span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span></span></span></span></span> 这个先验概率；而有了参考结果数据“从中摸出一颗糖发现是水果糖“，我们便可以得到 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          1
+​          P
 
 
 ​         
-          /
+​          (
 
 
 ​         
-          2
+​          θ
 
 
 ​         
-          &amp;lt;
+​          =
 
 
 ​         
-          3
+​          一
 
 
 ​         
-          /
+​          号
 
 
 ​         
-          5
+​          箱
+
+
+​         
+​          ∣
+
+
+​         
+​          x
+
+
+​         
+​          =
+
+
+​         
+​          水
+
+
+​         
+​          果
+
+
+​         
+​          糖
+
+
+​         
+​          )
+
+
+​         
+​          =
+
+
+​         
+​          3
+
+
+​         
+​          /
+
+
+​         
+​          5
 
 
 ​        
 ​        
-         1/2 &amp;lt; 3/5
+​         P( \theta =一号箱|x=水果糖 )=3/5
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">3</span><span class="mord">/</span><span class="mord">5</span></span></span></span></span>）。</font></p> 
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord cjk_fallback">水</span><span class="mord cjk_fallback">果</span><span class="mord cjk_fallback">糖</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">3</span><span class="mord">/</span><span class="mord">5</span></span></span></span></span> 这个后验概率。也就是说推断<strong>是一号箱</strong>的概率，在取出水果糖前和后，【<span class="katex--inline"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          θ
+
+
+​         
+​          =
+
+
+​         
+​          一
+
+
+​         
+​          号
+
+
+​         
+​          箱
+
+
+​        
+​        
+​         \theta =一号箱
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0em; vertical-align: 0em;"></span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">号</span><span class="mord cjk_fallback">箱</span></span></span></span></span> 】事件的<strong>可能性得到了增强</strong>（<span class="katex--inline"><span class="katex"><span class="katex-mathml">
+
+
+​       
+​        
+​         
+​          1
+
+
+​         
+​          /
+
+
+​         
+​          2
+
+
+​         
+​          &amp;lt;
+
+
+​         
+​          3
+
+
+​         
+​          /
+
+
+​         
+​          5
+
+
+​        
+​        
+​         1/2 &amp;lt; 3/5
+
+
+​       
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord">/</span><span class="mord">2</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">3</span><span class="mord">/</span><span class="mord">5</span></span></span></span></span>）。</font></p> 
 </blockquote> 
 <blockquote> 
  <p><font color="f11555" size="4">我们可以用小哥在公园的第二个奇遇来解释【贝叶斯估计】的意义：<br> 小哥在公园里玩飞镖，附近有个陌生人说他是一个<strong>专业的</strong>飞镖玩家，假设你现在是小哥，你<strong>可能最开始会假设</strong>这家伙在开玩笑忽悠我吧。<br> 首先你对这个人几乎什么都不了解，<strong>但遇到一个真正的专业飞镖玩家的概率是很小的。</strong> 因为澳大利亚的专业飞镖玩家也不过大约15个。<br> 如果这个陌生人为了证明自己，开始扔飞镖并且<strong>第一次正中靶心</strong>，但这个数据<strong>可能还是不能令你非常信服</strong>，因为你觉得这可能只是运气。<br> 但如果这个人连续十次都正中靶心，多个观测样本让你会倾向于接受他的专业说法。<br> 在这件事当中，你对【陌生人是专业玩家】的<strong>先验置信度</strong>就被累积的实验数据所覆盖而<strong>增强变大</strong>，贝叶斯定理起作用了。</font></p> 
@@ -3138,62 +3144,62 @@
 ​      
 ​       
 ​        
-         x
+​         x
 
 
 ​       
 ​       
-        x
+​        x
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span>，假定我们知道样本是从某一种分布中随机取出的，但我们不知道这个分布具体的参数 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span>，假定我们知道样本是从某一种分布中随机取出的，但我们不知道这个分布具体的参数 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​      
 ​       
 ​        
-         θ
+​         θ
 
 
 ​       
 ​       
-        \theta
+​        \theta
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span>。</p> 
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span>。</p> 
 </blockquote> 
 <ul><li>最大似然估计（ML，Maximum Likelihood）可以估计模型的参数。其目标是找出一组参数 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 ​      
 ​       
 ​        
-         θ
+​         θ
 
 
 ​       
 ​       
-        \theta
+​        \theta
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span>，使得模型产生出观测数据 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span>，使得模型产生出观测数据 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​      
 ​       
 ​        
-         x
+​         x
 
 
 ​       
 ​       
-        x
+​        x
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 的概率最大：</li></ul> 
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 的概率最大：</li></ul> 
 <blockquote> 
  <p><span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
@@ -3202,66 +3208,66 @@
 ​         
 ​          
 ​           
-            a
+​            a
 
 
 ​           
-            r
+​            r
 
 
 ​           
-            g
+​            g
 
 
 ​           
-            m
+​            m
 
 
 ​           
-            a
+​            a
 
 
 ​           
-            x
+​            x
 
 
 ​          
 ​          
-           θ
+​           θ
 
 
 ​         
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          x
+​          x
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-         \underset{\theta}{argmax} P(x|\theta)
+​         \underset{\theta}{argmax} P(x|\theta)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1.69655em; vertical-align: -0.946548em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.43056em;"><span class="" style="top: -2.15345em; margin-left: 0em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right: 0.02778em;">θ</span></span></span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class=""><span class="mop"><span class="mord mathit">a</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">m</span><span class="mord mathit">a</span><span class="mord mathit">x</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.946548em;"><span class=""></span></span></span></span></span></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span></span></p> 
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1.69655em; vertical-align: -0.946548em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.43056em;"><span class="" style="top: -2.15345em; margin-left: 0em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right: 0.02778em;">θ</span></span></span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class=""><span class="mop"><span class="mord mathit">a</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">m</span><span class="mord mathit">a</span><span class="mord mathit">x</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.946548em;"><span class=""></span></span></span></span></span></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span></span></p> 
 </blockquote> 
 <ul><li>假如这个参数有一个先验概率，那么参数该怎么估计呢？这就是MAP要考虑的问题。 最大后验估计（MAP－Maxaposterior）。MAP优化的是一个后验概率，即给定了观测值后使概率最大：</li></ul> 
 <blockquote> 
@@ -3272,267 +3278,267 @@
 ​         
 ​          
 ​           
-            a
+​            a
 
 
 ​           
-            r
+​            r
 
 
 ​           
-            g
+​            g
 
 
 ​           
-            m
+​            m
 
 
 ​           
-            a
+​            a
 
 
 ​           
-            x
+​            x
 
 
 ​          
 ​          
-           θ
+​           θ
 
 
 ​         
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          x
+​          x
 
 
 ​         
-          )
+​          )
 
 
 ​         
-          =
+​          =
 
 
-​         
-​          
-​           
-            a
-
-
-​           
-            r
-
-
-​           
-            g
-
-
-​           
-            m
-
-
-​           
-            a
-
-
-​           
-            x
-
-
-​          
-​          
-           θ
-
-
-​         
 ​         
 ​          
 ​           
-            P
+​            a
 
 
 ​           
-            (
+​            r
 
 
 ​           
-            x
+​            g
 
 
 ​           
-            ∣
+​            m
 
 
 ​           
-            θ
+​            a
 
 
 ​           
-            )
-
-
-​           
-            ∗
-
-
-​           
-            P
-
-
-​           
-            (
-
-
-​           
-            θ
-
-
-​           
-            )
+​            x
 
 
 ​          
 ​          
+​           θ
+
+
+​         
+​         
+​          
 ​           
-            P
-
-
-​           
-            (
-
-
-​           
-            x
+​            P
 
 
 ​           
-            )
+​            (
+
+
+​           
+​            x
+
+
+​           
+​            ∣
+
+
+​           
+​            θ
+
+
+​           
+​            )
+
+
+​           
+​            ∗
+
+
+​           
+​            P
+
+
+​           
+​            (
+
+
+​           
+​            θ
+
+
+​           
+​            )
+
+
+​          
+​          
+​           
+​            P
+
+
+​           
+​            (
+
+
+​           
+​            x
+
+
+​           
+​            )
 
 
 ​          
 ​         
 ​        
 ​        
-         \underset{\theta}{argmax} P(\theta|x)=\underset{\theta}{argmax} \frac{P(x|\theta) *P(\theta)}{P(x)}
+​         \underset{\theta}{argmax} P(\theta|x)=\underset{\theta}{argmax} \frac{P(x|\theta) *P(\theta)}{P(x)}
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1.69655em; vertical-align: -0.946548em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.43056em;"><span class="" style="top: -2.15345em; margin-left: 0em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right: 0.02778em;">θ</span></span></span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class=""><span class="mop"><span class="mord mathit">a</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">m</span><span class="mord mathit">a</span><span class="mord mathit">x</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.946548em;"><span class=""></span></span></span></span></span></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.37355em; vertical-align: -0.946548em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.43056em;"><span class="" style="top: -2.15345em; margin-left: 0em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right: 0.02778em;">θ</span></span></span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class=""><span class="mop"><span class="mord mathit">a</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">m</span><span class="mord mathit">a</span><span class="mord mathit">x</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.946548em;"><span class=""></span></span></span></span></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> 因为给定样本 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1.69655em; vertical-align: -0.946548em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.43056em;"><span class="" style="top: -2.15345em; margin-left: 0em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right: 0.02778em;">θ</span></span></span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class=""><span class="mop"><span class="mord mathit">a</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">m</span><span class="mord mathit">a</span><span class="mord mathit">x</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.946548em;"><span class=""></span></span></span></span></span></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.37355em; vertical-align: -0.946548em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.43056em;"><span class="" style="top: -2.15345em; margin-left: 0em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right: 0.02778em;">θ</span></span></span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class=""><span class="mop"><span class="mord mathit">a</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">m</span><span class="mord mathit">a</span><span class="mord mathit">x</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.946548em;"><span class=""></span></span></span></span></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.427em;"><span class="" style="top: -2.314em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.677em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.936em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span><br> 因为给定样本 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​      
 ​       
 ​        
-         x
+​         x
 
 
 ​       
 ​       
-        x
+​        x
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 后， <span class="katex--inline"><span class="katex"><span class="katex-mathml">
-
-
-​      
-​       
-​        
-         p
-
-
-​        
-         (
-
-
-​        
-         x
-
-
-​        
-         )
-
-
-​       
-​       
-        p(x)
-
-
-​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit">p</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span> 会在 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathit">x</span></span></span></span></span> 后， <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​      
 ​       
 ​        
-         θ
+​         p
 
 
-​       
-​       
-        \theta
-
-
-​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 空间上为一个定值，和 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
-
-
-​      
-​       
 ​        
-         θ
+​         (
+
+
+​        
+​         x
+
+
+​        
+​         )
 
 
 ​       
 ​       
-        \theta
+​        p(x)
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span>的大小没有关系，所以可以省略分母 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit">p</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span> 会在 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​      
 ​       
 ​        
-         p
-
-
-​        
-         (
-
-
-​        
-         x
-
-
-​        
-         )
+​         θ
 
 
 ​       
 ​       
-        p(x)
+​        \theta
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit">p</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span>。<br> 可化简为：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span> 空间上为一个定值，和 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+
+
+​      
+​       
+​        
+​         θ
+
+
+​       
+​       
+​        \theta
+
+
+​      
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span>的大小没有关系，所以可以省略分母 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+
+
+​      
+​       
+​        
+​         p
+
+
+​        
+​         (
+
+
+​        
+​         x
+
+
+​        
+​         )
+
+
+​       
+​       
+​        p(x)
+
+
+​      
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit">p</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span>。<br> 可化简为：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
@@ -3540,311 +3546,311 @@
 ​         
 ​          
 ​           
-            a
+​            a
 
 
 ​           
-            r
+​            r
 
 
 ​           
-            g
+​            g
 
 
 ​           
-            m
+​            m
 
 
 ​           
-            a
+​            a
 
 
 ​           
-            x
+​            x
 
 
 ​          
 ​          
-           θ
+​           θ
 
 
 ​         
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          x
+​          x
 
 
 ​         
-          )
+​          )
 
 
 ​         
-          =
+​          =
 
 
 ​         
 ​          
 ​           
-            a
+​            a
 
 
 ​           
-            r
+​            r
 
 
 ​           
-            g
+​            g
 
 
 ​           
-            m
+​            m
 
 
 ​           
-            a
+​            a
 
 
 ​           
-            x
+​            x
 
 
 ​          
 ​          
-           θ
+​           θ
 
 
 ​         
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          x
+​          x
 
 
 ​         
-          ∣
+​          ∣
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          )
+​          )
 
 
 ​         
-          ∗
+​          ∗
 
 
 ​         
-          P
+​          P
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          θ
+​          θ
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-         \underset{\theta}{argmax} P(\theta|x)=\underset{\theta}{argmax} P(x|\theta) *P(\theta)
+​         \underset{\theta}{argmax} P(\theta|x)=\underset{\theta}{argmax} P(x|\theta) *P(\theta)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1.69655em; vertical-align: -0.946548em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.43056em;"><span class="" style="top: -2.15345em; margin-left: 0em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right: 0.02778em;">θ</span></span></span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class=""><span class="mop"><span class="mord mathit">a</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">m</span><span class="mord mathit">a</span><span class="mord mathit">x</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.946548em;"><span class=""></span></span></span></span></span></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1.69655em; vertical-align: -0.946548em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.43056em;"><span class="" style="top: -2.15345em; margin-left: 0em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right: 0.02778em;">θ</span></span></span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class=""><span class="mop"><span class="mord mathit">a</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">m</span><span class="mord mathit">a</span><span class="mord mathit">x</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.946548em;"><span class=""></span></span></span></span></span></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span></span><br> 即为：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1.69655em; vertical-align: -0.946548em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.43056em;"><span class="" style="top: -2.15345em; margin-left: 0em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right: 0.02778em;">θ</span></span></span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class=""><span class="mop"><span class="mord mathit">a</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">m</span><span class="mord mathit">a</span><span class="mord mathit">x</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.946548em;"><span class=""></span></span></span></span></span></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mord">∣</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1.69655em; vertical-align: -0.946548em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.43056em;"><span class="" style="top: -2.15345em; margin-left: 0em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight" style="margin-right: 0.02778em;">θ</span></span></span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class=""><span class="mop"><span class="mord mathit">a</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit" style="margin-right: 0.03588em;">g</span><span class="mord mathit">m</span><span class="mord mathit">a</span><span class="mord mathit">x</span></span></span></span></span><span class="vlist-s"></span></span><span class="vlist-r"><span class="vlist" style="height: 0.946548em;"><span class=""></span></span></span></span></span></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mord">∣</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span></span><br> 即为：<br> <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml">
 
 
 ​       
 ​        
 ​         
-          P
+​          P
 
 
 ​         
-          o
+​          o
 
 
 ​         
-          s
+​          s
 
 
 ​         
-          t
+​          t
 
 
 ​         
-          e
+​          e
 
 
 ​         
-          r
+​          r
 
 
 ​         
-          i
+​          i
 
 
 ​         
-          o
+​          o
 
 
 ​         
-          r
+​          r
 
 
 ​         
-          ∝
+​          ∝
 
 
 ​         
-          (
+​          (
 
 
 ​         
-          L
+​          L
 
 
 ​         
-          i
+​          i
 
 
 ​         
-          k
+​          k
 
 
 ​         
-          e
+​          e
 
 
 ​         
-          l
+​          l
 
 
 ​         
-          i
+​          i
 
 
 ​         
-          h
+​          h
 
 
 ​         
-          o
+​          o
 
 
 ​         
-          o
+​          o
 
 
 ​         
-          d
+​          d
 
 
 ​         
-          ∗
+​          ∗
 
 
 ​         
-          P
+​          P
 
 
 ​         
-          r
+​          r
 
 
 ​         
-          i
+​          i
 
 
 ​         
-          o
+​          o
 
 
 ​         
-          r
+​          r
 
 
 ​         
-          )
+​          )
 
 
 ​        
 ​        
-         Posterior∝(Likelihood∗Prior)
+​         Posterior∝(Likelihood∗Prior)
 
 
 ​       
-      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mord mathit">o</span><span class="mord mathit">s</span><span class="mord mathit">t</span><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit">i</span><span class="mord mathit">o</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">∝</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathit">L</span><span class="mord mathit">i</span><span class="mord mathit" style="margin-right: 0.03148em;">k</span><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.01968em;">l</span><span class="mord mathit">i</span><span class="mord mathit">h</span><span class="mord mathit">o</span><span class="mord mathit">o</span><span class="mord mathit">d</span><span class="mord">∗</span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit">i</span><span class="mord mathit">o</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mclose">)</span></span></span></span></span></span><br> <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​      </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mord mathit">o</span><span class="mord mathit">s</span><span class="mord mathit">t</span><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit">i</span><span class="mord mathit">o</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">∝</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathit">L</span><span class="mord mathit">i</span><span class="mord mathit" style="margin-right: 0.03148em;">k</span><span class="mord mathit">e</span><span class="mord mathit" style="margin-right: 0.01968em;">l</span><span class="mord mathit">i</span><span class="mord mathit">h</span><span class="mord mathit">o</span><span class="mord mathit">o</span><span class="mord mathit">d</span><span class="mord">∗</span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mord mathit">i</span><span class="mord mathit">o</span><span class="mord mathit" style="margin-right: 0.02778em;">r</span><span class="mclose">)</span></span></span></span></span></span><br> <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​      
 ​       
 ​        
-         P
+​         P
 
 
 ​        
-         (
+​         (
 
 
 ​        
-         x
+​         x
 
 
 ​        
-         )
+​         )
 
 
 ​       
 ​       
-        P(x)
+​        P(x)
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span> 相当于是一个<strong>归一化项</strong>，整个公式就表示为：后验概率 <strong>正比于</strong> 先验概率 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathit" style="margin-right: 0.13889em;">P</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span> 相当于是一个<strong>归一化项</strong>，整个公式就表示为：后验概率 <strong>正比于</strong> 先验概率 <span class="katex--inline"><span class="katex"><span class="katex-mathml">
 
 
 ​      
 ​       
 ​        
-         ∗
+​         ∗
 
 
 ​       
 ​       
-        *
+​        *
 
 
 ​      
-     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.46528em; vertical-align: 0em;"></span><span class="mord">∗</span></span></span></span></span> 似然函数。</p> 
+​     </span><span class="katex-html"><span class="base"><span class="strut" style="height: 0.46528em; vertical-align: 0em;"></span><span class="mord">∗</span></span></span></span></span> 似然函数。</p> 
 </blockquote> 
 <ul><li>前两种都是假设参数是个<strong>确定值</strong>，但贝叶斯估计假设参数是个<strong>随机数</strong>。<br> 贝叶斯估计，假定把待估计的参数看成是符合某种先验概率分布的随机变量，而不是确定数值。在样本分布上，计算参数所有可能的情况，并通过计算参数的期望，得到后验概率密度。</li></ul> 
 <hr> 
