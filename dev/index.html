@@ -38,7 +38,6 @@
 
     
     <title>Yuehan's Homepage</title>
-    <noscript>
         <style>
             .use-motion .brand,
             .use-motion .menu-item,
@@ -58,12 +57,33 @@
 
             .use-motion .logo-line-before i { left: initial; }
             .use-motion .logo-line-after i { right: initial; }
+
+
+
+            .mainbody_yh {
+                text-align: left; /* 链接靠左对齐 */
+            }
+
+            
+            .link-container {
+                text-align: left; /* 链接靠左对齐 */
+            }
+            
+            .link-container a {
+                display: block; /* 将链接显示为块级元素，使其垂直排列 */
+                margin-bottom: 10px; /* 可选：为链接之间添加一些间距 */
+                text-decoration: none; /* 取消链接下划线 */
+                color: #333; /* 链接文本颜色 */
+                font-weight: bold; /* 可选：设置链接文本粗体 */
+            }
+
+
+            
         </style>
-    </noscript>
 </head>
 
     
-<body itemscope itemtype="http://schema.org/WebPage">
+<body>
 <div class="container use-motion">
     <div class="headband"></div>
 
@@ -85,17 +105,17 @@
     <p class="self-introduction">Hello, I am Yuehan Zhang. Welcome to my homepage. I love studying and learning.</p>
 </div>
 
-<div class="content index posts-expand">
+<div class="mainbody_yh">
     <div class="post">
         <p>You can find more about me in the following links.</p>
         
         <!-- 链接列表 -->
         <ul>
-            <li><a href="../index.html">Here is my CV in Chinese and English.</a></li>
-            <li><a href="/link2.html">Here is my CV in English</a></li>
-            <li><a href="/link3.html">Nothing</a></li>
-            <li><a href="/link4.html">链接4 - 详细描述链接4的内容</a></li>
-            <li><a href="/link5.html">链接5 - 详细描述链接5的内容</a></li>
+            <li><a href="../index.html">Here is my CV in Chinese and English</a></li>
+            <li><a href="../en">Here is my CV in English</a></li>
+            <li><a href="../archives/transcript_ba.html">Here is my Transcript of Bachelor Degree</a></li>
+            <li><a href="../archives/transcript_ms.html">Here is my Transcript of Master Degree</a></li>
+            /*<li><a href="/link5.html">链接5 - 详细描述链接5的内容</a></li>*/
         </ul>
     </div>
 </div>
